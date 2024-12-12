@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Foodpalace</title>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f93d92085b.js" crossorigin="anonymous"></script>
+
+  <style>
+    .hero-section {
+      background: rgb(241, 209, 159);
+      color: rgb(27, 26, 29);
+      padding: 80px 0;
+    }
+    .card {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Foodpalace</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">
+              <i class="fa-solid fa-house"></i>  Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">
+              <i class="fa-solid fa-burger"></i>  Recipes
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-section text-center">
+    <div class="container">
+      <h1 class="display-4">Welcome to Foodpalace</h1>
+      <p class="lead">A Place for Recipes Galore for all your Cooking Needs</p>
+      <a href="#about" class="btn btn-light btn-lg">Recipes</a>
+    </div>
+  </section>
+
+<br>
+<h1 class="text-center" style="font-weight: 300; scale: 120%;">Featured</h1>
+<br>
+
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-lg-4 col-md-6">
+        <div class="card shadow-sm">
+          <a href="recipe1.html">
+            <img src="spaghetti.jpg" class="card-img-top">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Classic Spaghetti Aglio e Olio</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card shadow-sm">
+          <a href="recipe2.html">
+            <img src="chicken.jpg" class="card-img-top">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Chicken Stir-Fry with Vegetables</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card shadow-sm">
+          <a href="recipe3.html">
+            <img src="beef.jpg" class="card-img-top">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Beef Bolognese</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
